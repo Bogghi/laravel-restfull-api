@@ -81,18 +81,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    Laravel Restfull API
                 </div>
 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <a href="{{route('view.index')}}">get (show all books)</a>
+                    <a href="{{route('view.create')}}">post (add a book)</a>
+                    <a href="{{route('view.edit',1)}}">patch/put (update a book)</a>
+                    <a href="{{route('view.destroy',1)}}">delete (delete an existing book)</a>
                 </div>
             </div>
         </div>
